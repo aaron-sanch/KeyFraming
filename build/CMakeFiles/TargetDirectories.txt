@@ -1,0 +1,9 @@
+C:/489/testA1/build/CMakeFiles/testA1.dir
+C:/489/testA1/build/CMakeFiles/INSTALL.dir
+C:/489/testA1/build/CMakeFiles/ALL_BUILD.dir
+C:/489/testA1/build/CMakeFiles/ZERO_CHECK.dir
+C:/441/glfw-3.3.2/debug/CMakeFiles/uninstall.dir
+C:/441/glfw-3.3.2/debug/CMakeFiles/INSTALL.dir
+C:/441/glfw-3.3.2/debug/CMakeFiles/ALL_BUILD.dir
+C:/441/glfw-3.3.2/debug/src/CMakeFiles/glfw.dir
+C:/441/glfw-3.3.2/debug/src/CMakeFiles/INSTALL.dir

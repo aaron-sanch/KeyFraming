@@ -1,0 +1,65 @@
+﻿  Building Custom Rule C:/489/testA1/CMakeLists.txt
+  Camera.cpp
+  GLSL.cpp
+  MatrixStack.cpp
+  Program.cpp
+  Shape.cpp
+C:\489\testA1\src\Shape.cpp(67,34): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\489\testA1\src\Shape.cpp(152,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  helicopter.cpp
+C:\489\testA1\src\helicopter.cpp(54,16): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\helicopter.cpp(57,16): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  keyframe.cpp
+C:\489\testA1\src\keyframe.cpp(88,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\489\testA1\src\keyframe.cpp(93,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\keyframe.cpp(132,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\keyframe.cpp(147,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\utility(246,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+C:\489\testA1\src\keyframe.cpp(71): message : see reference to function template instantiation 'std::pair<float,float>::pair<double,double,0>(std::pair<double,double> &&) noexcept' being compiled
+C:\489\testA1\src\keyframe.cpp(71): message : see reference to function template instantiation 'std::pair<float,float>::pair<double,double,0>(std::pair<double,double> &&) noexcept' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\utility(246,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\441\glm-master\glm\detail\type_quat.inl(301,115): warning C4244: 'argument': conversion from 'U' to 'T', possible loss of data
+          with
+          [
+              U=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\489\testA1\src\keyframe.cpp(199): message : see reference to function template instantiation 'glm::qua<float,glm::packed_highp> &glm::qua<float,glm::packed_highp>::operator *=<int>(U)' being compiled
+          with
+          [
+              U=int
+          ]
+C:\489\testA1\src\keyframe.cpp(199): message : see reference to function template instantiation 'glm::qua<float,glm::packed_highp> &glm::qua<float,glm::packed_highp>::operator *=<int>(U)' being compiled
+          with
+          [
+              U=int
+          ]
+  keys.cpp
+  main.cpp
+C:\489\testA1\src\main.cpp(63,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\main.cpp(63,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\main.cpp(79,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\489\testA1\src\main.cpp(79,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\489\testA1\build\Debug\vc120.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  testA1.vcxproj -> C:\489\testA1\build\Debug\testA1.exe

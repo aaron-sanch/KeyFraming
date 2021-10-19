@@ -1,5 +1,6 @@
 # Keyframing
 This is the key framing assignment that I completed for my Computer Animation Class in the Fall of 2021 at Texas A&amp;M.
+![ezgif com-gif-maker](https://media.github.tamu.edu/user/11447/files/97d88600-30e0-11ec-973a-fa68cd0954ac)
 
 This assignment was created by Dr. Shijiro Sueda, and was meant to teach the basics of keyframing by using spline curves to connect the animation of a helicopter on a unique path, along with the arc length parameterization, so that we can get a uniform speed while traversing the curve. This project uses OpenGL and GLM libraries to animate the object, and a helicopter obj file as the focus of the project.
 
